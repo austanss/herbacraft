@@ -17,10 +17,10 @@ public class FossilGenerator {
         if (!ctx.getCategory().equals(Category.PLAINS))
             return;
 
-        ctx.getGeneration().addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
-            .configured(new OreFeatureConfig(FillerBlockType.NATURAL_STONE, BlockManager.FOSSILIZED_CANNABIS_SEEDS.get().defaultBlockState(), 4))
-            .decorated(Placement.RANGE.configured(new TopSolidRangeConfig(50, 0, 80)))
-            .squared()
+        ctx.getGeneration().withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
+            .withConfiguration(new OreFeatureConfig(FillerBlockType.BASE_STONE_OVERWORLD, BlockManager.FOSSILIZED_CANNABIS_SEEDS.get().getDefaultState(), 4))
+            .withPlacement(Placement.RANGE.configure(new TopSolidRangeConfig(50, 0, 80)))
+            .square()
             .count(2));
     }
 }

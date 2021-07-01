@@ -8,7 +8,7 @@ import net.minecraft.item.ItemGroup;
 
 public class CannabisSeedsItem extends BlockNamedItem {
 
-	public static Properties PROPERTIES = new Item.Properties().tab(ItemGroup.TAB_MISC);
+	public static Properties PROPERTIES = new Item.Properties().group(ItemGroup.MISC);
 	
 	public CannabisSeedsItem() {
 		super(BlockManager.CANNABIS_CROP.get(), PROPERTIES);

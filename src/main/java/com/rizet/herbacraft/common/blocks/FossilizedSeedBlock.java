@@ -4,7 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 
 public class FossilizedSeedBlock extends Block {
-    public static Properties PROPERTIES = Block.Properties.copy(Blocks.IRON_ORE);
+    public static Properties PROPERTIES = Block.Properties.from(Blocks.IRON_ORE);
 
     public FossilizedSeedBlock() {
         super(PROPERTIES);

@@ -23,11 +23,11 @@ public class ItemManager {
 
 	public static final RegistryObject<Item> DRIED_CANNABIS_FLOWER = ITEMS.register("dried_cannabis_flower", () -> new CannabisFlowerItem());
 
-	public static final RegistryObject<Item> CANNABIS_DOUGH = ITEMS.register("cannabis_dough", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_FOOD)));
+	public static final RegistryObject<Item> CANNABIS_DOUGH = ITEMS.register("cannabis_dough", () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
 
 	public static final RegistryObject<Item> MEDICATED_BREAD = ITEMS.register("medicated_bread", () -> new MedicatedBreadFoodItem());
 
 	public static final RegistryObject<BlockItem> FOSSILIZED_CANNABIS_SEEDS = ITEMS.register("fossilized_cannabis_seeds", 
 		() -> new BlockItem(BlockManager.FOSSILIZED_CANNABIS_SEEDS.get(), 
-		new Item.Properties().tab(ItemGroup.TAB_DECORATIONS)));
+		new Item.Properties().group(ItemGroup.DECORATIONS)));
 }

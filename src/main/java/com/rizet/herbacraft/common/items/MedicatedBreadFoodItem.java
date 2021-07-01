@@ -7,7 +7,7 @@ import net.minecraft.item.ItemGroup;
 
 public class MedicatedBreadFoodItem extends Item {
 
-    public static Properties PROPERTIES = new Item.Properties().food(FoodManager.MEDICATED_BREAD).tab(ItemGroup.TAB_FOOD);
+    public static Properties PROPERTIES = new Item.Properties().food(FoodManager.MEDICATED_BREAD).group(ItemGroup.FOOD);
 
     public MedicatedBreadFoodItem() {
         super(PROPERTIES);

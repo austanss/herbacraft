@@ -7,7 +7,7 @@ import net.minecraftforge.common.ToolType;
 
 public class CannabisCropBlock extends CropsBlock {
 
-	public static Properties PROPERTIES = AbstractBlock.Properties.copy(Blocks.CARROTS)
+	public static Properties PROPERTIES = AbstractBlock.Properties.from(Blocks.CARROTS)
 			.harvestTool(ToolType.HOE)
 			.harvestLevel(-1);
 	
