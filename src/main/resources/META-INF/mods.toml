@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[36,)" 
+license="Creative Commons Zero"
+
+[[mods]]
+	modId="herbacraft"
+	version="1.0.0a"
+	displayName="Herbacraft"
+	credits="authored by rizet"
+	authors="Cultivate and reap the benefits of herbs."
+	description='''
+Grow and engineer your herbs.
+Cultivate them in the dirt.
+Reap the benefits.
+'''
+	

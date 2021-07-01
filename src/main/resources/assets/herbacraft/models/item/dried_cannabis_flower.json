@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "herbacraft:items/dried_cannabis_flower"
+	}
+}

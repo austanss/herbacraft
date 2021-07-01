@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "herbacraft:cannabis_flower"
+        }
+    ],
+    "result": {
+        "item": "herbacraft:cannabis_seeds",
+        "count": 2
+    }
+}
