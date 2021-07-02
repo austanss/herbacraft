@@ -23,7 +23,7 @@ public class StimulatingHighEffect extends Effect {
     
     @Override
     public void performEffect(LivingEntity entity, int strength) {
-        Herbacraft.LOGGING.log(Level.DEBUG, "Stimulated High" + strength);
+        Herbacraft.LOGGING.log(Level.FATAL, "Stimulated High" + strength);
     }
 
     

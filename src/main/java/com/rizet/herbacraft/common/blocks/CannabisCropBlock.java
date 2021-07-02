@@ -14,6 +14,4 @@ public class CannabisCropBlock extends CropsBlock {
 	public CannabisCropBlock() {
 		super(PROPERTIES);
 	}
-
-	
 }

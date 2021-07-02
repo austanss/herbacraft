@@ -13,7 +13,7 @@ public class BlockManager {
 
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Herbacraft.MOD_ID);
 	
-	public static final RegistryObject<CannabisCropBlock> CANNABIS_CROP = 
+	public static final RegistryObject<Block> CANNABIS_CROP = 
 			BLOCKS.register("cannabis_crop", () -> new CannabisCropBlock());
 	
 	public static final RegistryObject<Block> FOSSILIZED_CANNABIS_SEEDS = 
