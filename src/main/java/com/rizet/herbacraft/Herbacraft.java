@@ -3,9 +3,6 @@ package com.rizet.herbacraft;
 import com.rizet.herbacraft.registries.BlockRegistry;
 import com.rizet.herbacraft.registries.RegistryManager;
 
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.Logger;
-
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
