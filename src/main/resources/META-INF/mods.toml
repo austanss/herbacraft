@@ -4,9 +4,9 @@ license="GNU LGPL v2.1"
 
 [[mods]]
 	modId="herbacraft"
-	version="1.0.0a"
+	version="1.0.0-alpha"
 	displayName="Herbacraft"
-	credits="rizet and GitHub contributors"
+	credits="rizet, juanoginer"
 	authors="rizet"
 	description=''''''
 	
