@@ -1,35 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "herbacraft",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Herbacraft",
+  "description": "Adds *special* herbs into the game.",
   "authors": [
-    "Me!"
+    "rizet"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "LGPL-2.1",
+  "icon": "assets/herbacraft/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.rizet.herbacraft.Herbacraft"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.11.6",
     "fabric": "*",
-    "minecraft": "1.17.x",
+    "minecraft": "1.16.5",
     "java": ">=16"
   },
   "suggests": {
