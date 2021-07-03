@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "herbacraft:block/cannabis_plant/age0" },
+        "age=1": { "model": "herbacraft:block/cannabis_plant/age1" },
+        "age=2": { "model": "herbacraft:block/cannabis_plant/age2" },
+        "age=3": { "model": "herbacraft:block/cannabis_plant/age3" },
+        "age=4": { "model": "herbacraft:block/cannabis_plant/age4" },
+        "age=5": { "model": "herbacraft:block/cannabis_plant/age5" },
+        "age=6": { "model": "herbacraft:block/cannabis_plant/age6" },
+        "age=7": { "model": "herbacraft:block/cannabis_plant/age7" }
+    }
+}
