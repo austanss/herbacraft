@@ -24,7 +24,6 @@ public class Herbacraft implements ModInitializer, ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
-		System.out.println("[Herbacraft]: SETTING RENDER LAYER MAP");
 		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.CANNABIS_PLANT, RenderLayer.getCutout());
 	}
 
