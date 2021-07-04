@@ -24,6 +24,6 @@ public class StimulatedEffect extends StatusEffect {
 
     @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
-        entity.heal(0.01f * amplifier);
+        entity.heal(0.01f * ++amplifier);
     }
 }

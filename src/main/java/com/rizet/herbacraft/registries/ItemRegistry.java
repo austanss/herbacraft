@@ -14,7 +14,7 @@ public class ItemRegistry {
     public static final Item CANNABIS_FLOWER = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item DRIED_CANNABIS = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item CANNABIS_DOUGH = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item CANNABIS_BREAD = new Item(new Item.Settings().group(ItemGroup.FOOD));
+    public static final Item CANNABIS_BREAD = new Item(new Item.Settings().group(ItemGroup.FOOD).food(FoodRegistry.CANNABIS_INFUSED));
     public static final Item FOSSILIZED_CANNABIS_SEEDS = new BlockItem(BlockRegistry.FOSSILIZED_CANNABIS_SEEDS, new Item.Settings().group(ItemGroup.DECORATIONS));
 
     public static void register() {
