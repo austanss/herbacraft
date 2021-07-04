@@ -3,7 +3,7 @@
     "ingredient": {
         "item": "herbacraft:cannabis_dough"
     },
-    "result": "herbacraft:medicated_bread",
+    "result": "herbacraft:cannabis_bread",
     "experience": 0.1,
     "cookingtime": 200
 }
