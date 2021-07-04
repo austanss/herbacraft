@@ -5,5 +5,6 @@
 	"item.herbacraft.cannabis_dough": "Suspicious Dough",
 	"item.herbacraft.cannabis_bread": "Suspicious Bread",
 	"block.herbacraft.cannabis_plant": "Cannabis Plant",
-	"block.herbacraft.fossilized_cannabis_seeds": "Fossilized Cannabis Seeds"
+	"block.herbacraft.fossilized_cannabis_seeds": "Fossilized Cannabis Seeds",
+	"effect.herbacraft.stimulated": "Stimulated"
 }
