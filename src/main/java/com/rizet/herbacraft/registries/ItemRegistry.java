@@ -3,7 +3,6 @@ package com.rizet.herbacraft.registries;
 import com.rizet.herbacraft.Herbacraft;
 
 import net.minecraft.item.AliasedBlockItem;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.registry.Registry;
@@ -15,11 +14,9 @@ public class ItemRegistry {
     public static final Item DRIED_CANNABIS = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item CANNABIS_DOUGH = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item CANNABIS_BREAD = new Item(new Item.Settings().group(ItemGroup.FOOD).food(FoodRegistry.CANNABIS_INFUSED));
-    public static final Item FOSSILIZED_CANNABIS_SEEDS = new BlockItem(BlockRegistry.FOSSILIZED_CANNABIS_SEEDS, new Item.Settings().group(ItemGroup.DECORATIONS));
 
     public static void register() {
         Registry.register(Registry.ITEM, Herbacraft.newId("cannabis_seeds"), CANNABIS_SEEDS);
-        Registry.register(Registry.ITEM, Herbacraft.newId("fossilized_cannabis_seeds"), FOSSILIZED_CANNABIS_SEEDS);
         Registry.register(Registry.ITEM, Herbacraft.newId("cannabis_flower"), CANNABIS_FLOWER);
         Registry.register(Registry.ITEM, Herbacraft.newId("dried_cannabis"), DRIED_CANNABIS);
         Registry.register(Registry.ITEM, Herbacraft.newId("cannabis_dough"), CANNABIS_DOUGH);
